@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* public 公用样式 */
+/* reset */
+*{
+	margin: 0;
+	padding: 0;
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dt,
+dd,
+b,
+form,
+input,
+i,
+td,
+th {
+	margin: 0;
+	padding: 0;
+	font-family: 'Microsoft YaHei', '微软雅黑', 'Lucida Grande', '宋体', '隶书', 'Hiragino Sans GB', 'Hiragino Sans GB W3';
+	font-variant: normal;
+	font-weight: normal;
+	font-style: normal;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+	font-style: normal;
+	font-weight: normal
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+	transition:color 0.1s;
+}
+a:hover {
+	color: #ff4981;
+}
+input {
+	background: none;
+	outline: none;
+}
+img {
+	border: none;
+	vertical-align: top;
+}
+table {
+	border-collapse: collapse;
+}
+body {
+	background: #FFF;
+}
+/* end reset */

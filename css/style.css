@@ -1,0 +1,131 @@
+#body{}
+::-webkit-scrollbar{
+	width: 0px;
+	height: 0px;
+}
+.container{
+	margin: 0 auto;
+	height: 800px;
+	width: 1200px;
+	border: 1px solid #F8F8F8;
+}
+.customer_list{
+	float: left;
+	height: 800px;
+	width: 500px;
+	border: 1px solid #f6f6f6;
+	border-right:none;
+}
+.customer_list h2{
+	display: block;
+	height: 50px;
+	width: 490px;
+	background: #EDEBE9;
+	line-height: 50px;
+	color: #878285;
+	padding-left: 10px;
+	position: fixed;
+}
+.customer_ul{
+	margin-top: 50px;
+	display: block;
+	height: 750px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	
+}
+.customer_ul li{
+	height: 80px;
+	width: 500px;
+	border: 1px solid #f6f6f6;
+	border-right: none;		
+}
+.customer_ul li:hover{
+	background: #FAF3DF;
+	font-size: 18px;
+}
+.customer_ul li img{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.chat_icon{
+	float: left;
+}
+.chat_name{
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.chat_visit{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.chat_visit b{
+	color: #5E89B3;
+}
+.chatPage{
+	float: left;
+	height: 800px;
+	width: 696px;
+	border:1px solid #F8F8F8;
+}
+.chat_top{
+	display: block;
+	height: 100px;
+	width: 696px;
+	border:1px solid #F8F8F8;
+	background: #0CAFA3;
+	margin-top: -3px;
+}
+.chat_top_name{
+	margin: 0 20px;
+	float: left;
+	line-height: 90px;
+}
+.chat_top_name img{
+	float: left;
+	margin-top: 21px;
+}
+.chat_top_name h3{
+	line-height: 102px;
+    margin-left: 10px;
+    float: left;
+    color: #FFFFFF;
+}
+.chat_content{
+	height: 600px;
+	width: 696px;
+	border:1px solid #F8F8F8;
+}
+.chat_input{
+	height: 98px;
+	width: 699px;
+	background-color: #fbfbfb;
+	position: fixed;
+}
+.input textarea {
+	width:697px;
+	height: 60px;
+	font-size:16px;
+	color:#000;
+	background-color: #fbfbfb;
+	border: none;	
+	resize: none;
+	outline:none;
+}
+
+.action button {
+  	font-size: 15px;
+ 	float: right;
+ 	margin:0 20px;
+ 	border-radius: 5px;
+ 	background: #FFFFFF;
+ 	width: 70px;
+ 	height: 30px;
+}
+.action button:hover{
+	background: #02B300;
+	color: #FFFFFF;
+	border: none;
+}
